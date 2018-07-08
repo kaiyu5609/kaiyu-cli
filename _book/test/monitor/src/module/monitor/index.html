@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monitor</title>
+    </head>
+    <body>
+        
+        <script src="./../../lib/jquery.js"></script>
+        <script src="./../../lib/angular.js"></script>
+        <script src="./../../common/controller/Common.js"></script>
+        <script src="./../../common/directive/Common.js"></script>
+        <script src="./../../common/service/Common.js"></script>
+        <script src="./controler/Monitor.js"></script>
+        <script src="./directive/Monitor.js"></script>
+        <script src="./service/Monitor.js"></script>
+        <script>
+            var modules = [
+                'app.controller.CommonCtrl',
+                'app.directive.CommonDirective',
+                'app.service.CommonService',
+                'app.controller.MonitorCtrl',
+                'app.directive.MonitorDirective',
+                'app.service.MonitorService'
+            ];
+            angular.module('app', modules);
+            angular.bootstrap(document, 'app');
+        </script>
+    </body>
+</html>

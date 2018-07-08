@@ -18,7 +18,24 @@
 
 ## 快速使用
 
-简单接入的文档
+#### 一、初始化新的项目
+
+- 安装成功之后，进入您的工作空间目录，如：`workspaces`目录下（或者其他您已创建好的目录）
+- 使用`Ctrl + R`来打开`cmd`命令窗口，执行以下命令来初始化您的项目，`<project-name>`请填写您要初始化的项目名称
+
+```js
+kaiyu init <project-name>
+```
+#### 二、创建新的项目模块
+
+- 项目创建好了，那么下一步，我们可以在项目下创建某一个模块
+- 在`cmd`命令窗口，使用命令`cd ./<project-name>/src/module/`，进入您项目下的`module`目录
+- 执行下面的命令来创建一个模块，`<module-name>`请填写您要创建的模块名称
+
+```js
+kaiyu module <module-name>
+```
+
 
 - 使用文档(./doc/use/README.md)
 - 二次开发文档(./doc/dev/README.md)
