@@ -1,6 +1,6 @@
 {
   "name": "kaiyu-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "kaiyu-cli",
   "main": "./bin/kaiyu.js",
   "bin": {
@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/kaiyu5609/kaiyu-cli#readme",
   "devDependencies": {
-    "commander": "^2.16.0",
     "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "commander": "^2.16.0"
   }
 }
