@@ -1,6 +1,6 @@
 {
   "name": "kaiyu-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "kaiyu-cli",
   "main": "./bin/kaiyu.js",
   "bin": {
@@ -30,8 +30,11 @@
     "chalk": "^2.4.1",
     "commander": "^2.16.0",
     "glob": "^7.1.2",
+    "handlebars": "^4.0.11",
     "inquirer": "^6.0.0",
     "log-symbols": "^2.2.0",
+    "metalsmith": "^2.3.0",
+    "minimatch": "^3.0.4",
     "ora": "^2.1.0"
   }
 }
