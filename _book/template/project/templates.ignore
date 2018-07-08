@@ -1,5 +1,0 @@
-
-#src/lib/jquery.js
-
-# 最终生成的项目中不需要ignore自身
-templates.ignore
