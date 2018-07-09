@@ -1,6 +1,6 @@
 {
   "name": "kaiyu-cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "kaiyu-cli",
   "main": "./bin/kaiyu.js",
   "bin": {
@@ -10,19 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "http-server -p 8880"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaiyu5609/kaiyu-cli.git"
-  },
   "keywords": [
     "kaiyu-cli"
   ],
-  "author": "https://github.com/kaiyu5609/kaiyu-cli",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kaiyu5609/kaiyu-cli/issues"
-  },
-  "homepage": "https://github.com/kaiyu5609/kaiyu-cli#readme",
   "devDependencies": {
     "http-server": "^0.11.1"
   },
