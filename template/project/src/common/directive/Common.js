@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('app.directive.CommonDirective', [])
-    .directive('CommonDirective', ['CommonService', function(CommonService) {
+    .directive('commonDirective', ['CommonService', function(CommonService) {
         return {
             restrict: 'EA',
             replace: true,
